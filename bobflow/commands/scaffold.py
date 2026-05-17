@@ -7,6 +7,7 @@ from bobflow.bob_runner import run_bob
 @click.option("--stack", "-s", default="Python FastAPI", help="Tech stack")
 @click.option("--idea", "-i", required=True, help="What to build")
 @click.option("--output", "-o", default=".", help="Output directory")
+@click.option("--timeout", "-t", default=300, help="Timeout in seconds")
 def scaffold(feature_name, stack, idea, output, timeout):
     """Scaffold a new feature into an existing project using IBM Bob.
 
