@@ -1,0 +1,14 @@
+
+================================================================================
+ERROR LOGGED: 2026-05-16T12:02:00.964Z
+================================================================================
+Error Name: Error
+Error Message: Authentication timeout (3 minutes)
+
+Stack Trace:
+Error: Authentication timeout (3 minutes)
+    at Timeout._onTimeout (file:///home/sachasmart/.nvm/versions/node/v23.9.0/lib/node_modules/bobshell/bundle/bob.js:2095:91)
+    at listOnTimeout (node:internal/timers:614:17)
+    at process.processTimers (node:internal/timers:549:7)
+================================================================================
+

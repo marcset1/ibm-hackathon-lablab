@@ -1,0 +1,3 @@
+[console_scripts]
+bobflow = bobflow.cli:cli
+
